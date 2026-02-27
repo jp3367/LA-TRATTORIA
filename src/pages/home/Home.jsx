@@ -1,4 +1,5 @@
 import DishCard from '../../components/dish-card/DishCard'
+import Gallery from '../../components/gallery/Gallery'
 import './Home.css'
 
 const featuredDishes = [
@@ -59,11 +60,14 @@ function Home() {
         </div>
       </section>
 
+      <Gallery />
+
       <section className="quote-section">
         <div className="container">
           <blockquote className="quote">
             <span className="quote-mark">"</span>
             La buena cocina es honesta, simple y sabrosa.
+            <span className="quote-mark">"</span>
             <cite>Auguste Escoffier</cite>
           </blockquote>
         </div>
