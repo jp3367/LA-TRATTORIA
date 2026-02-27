@@ -14,6 +14,7 @@ function DishCard({ dish }) {
           <span className="dish-card-price">{price}</span>
           <button className="dish-card-btn">Anadir</button>
         </div>
+      
       </div>
     </article>
   )
