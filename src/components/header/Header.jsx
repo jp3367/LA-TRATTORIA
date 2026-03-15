@@ -9,6 +9,7 @@ function Header() {
   const navLinks = [
     { path: '/home', label: 'Inicio' },
     { path: '/menu', label: 'Menu' },
+    { path: '/news', label: 'Noticias' },
     { path: '/about', label: 'Nosotros' },
     { path: '/contact', label: 'Contacto' },
   ]

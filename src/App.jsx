@@ -5,6 +5,11 @@ import Home from './pages/home/Home'
 import Menu from './pages/menu/Menu'
 import Contact from './pages/contact/Contact'
 import About from './pages/about/About'
+import News from './pages/news/News'
+import Admin from './pages/admin/Admin'
+import Privacy from './pages/privacy/Privacy'
+import Terms from './pages/terms/Terms'
+import Legal from './pages/legal/Legal'
 import './App.css'
 
 function App() {
@@ -18,6 +23,11 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/admin" element={<Admin />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/legal" element={<Legal />} />
         </Routes>
         <Footer />
       </div>

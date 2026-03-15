@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>La Trattoria - Noticias</title>
+    <link>http://localhost:5173</link>
+    <description>Últimas noticias y eventos del restaurante La Trattoria</description>
+    <language>es-ES</language>
+    
+    <item>
+      <title>Nueva Carta de Primavera 2024</title>
+      <link>http://localhost:5173/news</link>
+      <description>Descubre nuestros nuevos platos de temporada con ingredientes frescos de primavera. Risotto con espárragos, pasta con alcachofas y mucho más.</description>
+      <pubDate>Fri, 15 Mar 2024 10:00:00 GMT</pubDate>
+      <category>Especiales</category>
+    </item>
+    
+    <item>
+      <title>Clase de Pasta Fresca con el Chef Marco</title>
+      <link>http://localhost:5173/news</link>
+      <description>Aprende a hacer pasta artesanal con nuestro chef Marco Rossi. Incluye degustación y recetas para llevar a casa. Plazas limitadas, reserva ya.</description>
+      <pubDate>Mon, 11 Mar 2024 15:00:00 GMT</pubDate>
+      <category>Eventos</category>
+    </item>
+    
+    <item>
+      <title>Noche de Vinos Italianos - Degustación</title>
+      <link>http://localhost:5173/news</link>
+      <description>Degustación de vinos exclusivos de la Toscana con maridaje de 5 platos especialmente diseñados por nuestro chef.</description>
+      <pubDate>Sat, 09 Mar 2024 19:00:00 GMT</pubDate>
+      <category>Eventos</category>
+    </item>
+    
+    <item>
+      <title>Especial Trufa Blanca de Alba</title>
+      <link>http://localhost:5173/news</link>
+      <description>Durante todo marzo, disfruta de nuestros platos con trufa blanca italiana de Alba. Risotto, pasta y carpaccio con este ingrediente de lujo.</description>
+      <pubDate>Fri, 01 Mar 2024 12:00:00 GMT</pubDate>
+      <category>Especiales</category>
+    </item>
+    
+    <item>
+      <title>Nuevo Chef Ejecutivo: Marco Rossi</title>
+      <link>http://localhost:5173/news</link>
+      <description>Damos la bienvenida a Marco Rossi como nuestro nuevo chef ejecutivo. Con 15 años de experiencia en restaurantes con estrella Michelin en Roma.</description>
+      <pubDate>Wed, 28 Feb 2024 09:00:00 GMT</pubDate>
+      <category>Noticias</category>
+    </item>
+    
+    <item>
+      <title>Receta del Mes: Risotto alla Milanese</title>
+      <link>http://localhost:5173/news</link>
+      <description>El Chef comparte su secreto para el risotto perfecto con azafrán. Descubre la técnica tradicional milanesa paso a paso.</description>
+      <pubDate>Mon, 26 Feb 2024 11:00:00 GMT</pubDate>
+      <category>Chef</category>
+    </item>
+
+    <item>
+      <title>Ampliamos Horario de Fin de Semana</title>
+      <link>http://localhost:5173/news</link>
+      <description>A partir de este mes, abrimos sábados y domingos hasta las 23:00h. Más oportunidades para disfrutar de auténtica cocina italiana.</description>
+      <pubDate>Thu, 22 Feb 2024 08:00:00 GMT</pubDate>
+      <category>Noticias</category>
+    </item>
+
+    <item>
+      <title>Menú Degustación de San Valentín</title>
+      <link>http://localhost:5173/news</link>
+      <description>Menú especial de 7 platos con maridaje de vinos para celebrar el día de los enamorados. Reservas hasta el 10 de febrero.</description>
+      <pubDate>Mon, 05 Feb 2024 10:00:00 GMT</pubDate>
+      <category>Especiales</category>
+    </item>
+    
+  </channel>
+</rss>
