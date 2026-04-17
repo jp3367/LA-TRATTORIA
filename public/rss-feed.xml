@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>La Trattoria - Noticias Gastronómicas</title>
+    <link>https://latrattoria.com</link>
+    <description>Últimas noticias sobre cocina italiana</description>
+    <language>es-ES</language>
+
+    <item>
+      <title>Restaurante Rigolo: la trattoria que ha revolucionado el paladar de Las Palmas de Gran Canaria </title>
+      <description>La cocina italiana evoluciona con técnicas modernas que respetan la tradición.</description>
+      <link>https://www.eldiario.es/canariasahora/por-fogones/losjuernesdeporfogones/restaurante-rigolo-trattoria-revolucionado-paladar-palmas-gran-canaria_1_12723882.html</link>
+      <pubDate>Fri, 17 Apr 2026 10:00:00 GMT</pubDate>
+      <category>Gastronomía</category>
+    </item>
+
+    <item>
+      <title>Del sueño romano al sabor imprescindible de Almería: La Trattoria cumple 25 años </title>
+      <description>Cumpleaños número 25 de La Trattoria</description>
+      <link>https://www.diariodealmeria.es/finanzasyagricultura/romano-sabor-imprescindible-almeria-trattoria_0_2006448219.html</link>
+      <pubDate>Thu, 16 Apr 2026 15:30:00 GMT</pubDate>
+      <category>Vinos</category>
+    </item>
+
+  
+  </channel>
+</rss>

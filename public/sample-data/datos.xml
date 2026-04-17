@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dishes>
+  <dish>
+    <name>Bruschetta al Pomodoro</name>
+    <description>Pan tostado con tomate cherry, ajo, albahaca y aceite de oliva.</description>
+    <price>7,90€</price>
+    <category>Entrantes</category>
+    <isPopular>false</isPopular>
+  </dish>
+  <dish>
+    <name>Carpaccio di Manzo</name>
+    <description>Laminas de ternera cruda con rucula, parmesano y vinagreta de limon.</description>
+    <price>11,90€</price>
+    <category>Entrantes</category>
+    <isPopular>true</isPopular>
+  </dish>
+  <dish>
+    <name>Carbonara Clasica</name>
+    <description>Pasta artesanal con huevo, guanciale, pecorino romano y pimienta negra.</description>
+    <price>14,90€</price>
+    <category>Pasta</category>
+    <isPopular>true</isPopular>
+  </dish>
+  <dish>
+    <name>Pappardelle al Ragu</name>
+    <description>Pasta ancha con ragu de ternera y cerdo cocinado 6 horas.</description>
+    <price>15,90€</price>
+    <category>Pasta</category>
+    <isPopular>true</isPopular>
+  </dish>
+  <dish>
+    <name>Pizza Margherita</name>
+    <description>Base de tomate San Marzano, mozzarella fior di latte y albahaca fresca.</description>
+    <price>12,50€</price>
+    <category>Pizzas</category>
+    <isPopular>true</isPopular>
+  </dish>
+  <dish>
+    <name>Pizza Quattro Formaggi</name>
+    <description>Mozzarella, gorgonzola, parmesano y fontina sobre base blanca.</description>
+    <price>14,90€</price>
+    <category>Pizzas</category>
+    <isPopular>false</isPopular>
+  </dish>
+  <dish>
+    <name>Risotto ai Funghi</name>
+    <description>Arroz arborio con setas porcini, parmesano y trufa negra.</description>
+    <price>16,50€</price>
+    <category>Arroces</category>
+    <isPopular>false</isPopular>
+  </dish>
+  <dish>
+    <name>Ossobuco alla Milanese</name>
+    <description>Jarrete de ternera estofado con verduras, vino blanco y gremolata.</description>
+    <price>22,90€</price>
+    <category>Carnes</category>
+    <isPopular>false</isPopular>
+  </dish>
+  <dish>
+    <name>Tiramisu Casero</name>
+    <description>Bizcochos savoiardi, mascarpone, cafe espresso y cacao en polvo.</description>
+    <price>6,90€</price>
+    <category>Postres</category>
+    <isPopular>true</isPopular>
+  </dish>
+  <dish>
+    <name>Panna Cotta</name>
+    <description>Crema italiana con coulis de frutos rojos frescos.</description>
+    <price>5,90€</price>
+    <category>Postres</category>
+    <isPopular>false</isPopular>
+  </dish>
+</dishes>

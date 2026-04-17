@@ -7,7 +7,7 @@ function News() {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-const RSS_FEED_URL = '/rss.xml';
+const RSS_FEED_URL = '/rss-feed.xml';
 
     useEffect(() => {
         fetchRSSFeed();

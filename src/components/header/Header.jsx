@@ -12,6 +12,7 @@ function Header() {
     { path: '/news', label: 'Noticias' },
     { path: '/about', label: 'Nosotros' },
     { path: '/contact', label: 'Contacto' },
+    { path: '/import-export', label: 'Datos' },
   ]
 
   const isActive = (path) => location.pathname === path || (path === '/home' && location.pathname === '/')

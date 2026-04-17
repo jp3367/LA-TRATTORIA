@@ -8,7 +8,6 @@ function Gallery() {
   const [filteredEvents, setFilteredEvents] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('Todos');
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
   const categories = ['Todos', 'Eventos', 'Noticias', 'Especiales', 'Chef'];
 
@@ -24,67 +23,12 @@ function Gallery() {
           id: doc.id,
           ...doc.data()
         }));
-        
+
         setEvents(eventsData);
         setFilteredEvents(eventsData);
-        setError(null);
       } catch (err) {
         console.error('Error al cargar eventos:', err);
-        setError('No se pudieron cargar los eventos. Usando datos de ejemplo.');
-        
-        const mockData = [
-          {
-            id: 1,
-            title: 'Noche de Vinos Italianos',
-            description: 'Degustación de vinos exclusivos de la Toscana con maridaje especial.',
-            category: 'Eventos',
-            image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600',
-            date: '2026-03-15'
-          },
-          {
-            id: 2,
-            title: 'Nuevo Chef Ejecutivo',
-            description: 'Damos la bienvenida a Marco Rossi, con 15 años de experiencia en Roma.',
-            category: 'Noticias',
-            image: 'https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=600',
-            date: '2026-03-10'
-          },
-          {
-            id: 3,
-            title: 'Menú de Primavera',
-            description: 'Descubre nuestros platos de temporada con ingredientes frescos.',
-            category: 'Especiales',
-            image: 'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600',
-            date: '2026-03-20'
-          },
-          {
-            id: 4,
-            title: 'Clase de Pasta Fresca',
-            description: 'Aprende a hacer pasta artesanal con nuestro chef. Plazas limitadas.',
-            category: 'Eventos',
-            image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600',
-            date: '2026-03-25'
-          },
-          {
-            id: 5,
-            title: 'Especial Trufas',
-            description: 'Durante todo marzo, prueba nuestros platos con trufa blanca de Alba.',
-            category: 'Especiales',
-            image: 'https://images.unsplash.com/photo-1611171711912-e0763e0e1b2c?w=600',
-            date: '2026-03-05'
-          },
-          {
-            id: 6,
-            title: 'Receta del Mes',
-            description: 'El Chef comparte su secreto para el risotto perfecto.',
-            category: 'Chef',
-            image: 'https://www.tutkit.com/storage/media/packages/1133/1133-speisekarten-vorlagen-italienische-restaurants-02.avif',
-            date: '2026-03-01'
-          }
-        ];
-        
-        setEvents(mockData);
-        setFilteredEvents(mockData);
+        setEvents([]); // Vacío si falla
       } finally {
         setLoading(false);
       }
@@ -125,12 +69,6 @@ function Gallery() {
           Descubre las últimas novedades, eventos especiales y noticias de nuestro restaurante.
         </p>
 
-        {error && (
-          <div className="gallery-notice">
-            ℹ️ {error}
-          </div>
-        )}
-
         <div className="gallery-filters">
           {categories.map(category => (
             <button
@@ -165,7 +103,7 @@ function Gallery() {
               </article>
             ))
           ) : (
-            <p className="gallery-empty">No hay eventos en esta categoría.</p>
+            <p className="gallery-empty">No hay eventos disponibles en esta categoría.</p>
           )}
         </div>
       </div>
