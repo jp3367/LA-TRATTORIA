@@ -1,0 +1,11 @@
+name,description,price,category,isPopular
+"Bruschetta al Pomodoro","Pan tostado con tomate cherry, ajo, albahaca y aceite de oliva.","7,90€","Entrantes","false"
+"Carpaccio di Manzo","Laminas de ternera cruda con rucula, parmesano y vinagreta de limon.","11,90€","Entrantes","true"
+"Carbonara Clasica","Pasta artesanal con huevo, guanciale, pecorino romano y pimienta negra.","14,90€","Pasta","true"
+"Pappardelle al Ragu","Pasta ancha con ragu de ternera y cerdo cocinado 6 horas.","15,90€","Pasta","true"
+"Pizza Margherita","Base de tomate San Marzano, mozzarella fior di latte y albahaca fresca.","12,50€","Pizzas","true"
+"Pizza Quattro Formaggi","Mozzarella, gorgonzola, parmesano y fontina sobre base blanca.","14,90€","Pizzas","false"
+"Risotto ai Funghi","Arroz arborio con setas porcini, parmesano y trufa negra.","16,50€","Arroces","false"
+"Ossobuco alla Milanese","Jarrete de ternera estofado con verduras, vino blanco y gremolata.","22,90€","Carnes","false"
+"Tiramisu Casero","Bizcochos savoiardi, mascarpone, cafe espresso y cacao en polvo.","6,90€","Postres","true"
+"Panna Cotta","Crema italiana con coulis de frutos rojos frescos.","5,90€","Postres","false"
