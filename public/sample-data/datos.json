@@ -1,0 +1,12 @@
+[
+  { "name": "Bruschetta al Pomodoro", "description": "Pan tostado con tomate cherry, ajo, albahaca y aceite de oliva.", "price": "7,90€", "category": "Entrantes", "isPopular": false },
+  { "name": "Carpaccio di Manzo", "description": "Laminas de ternera cruda con rucula, parmesano y vinagreta de limon.", "price": "11,90€", "category": "Entrantes", "isPopular": true },
+  { "name": "Carbonara Clasica", "description": "Pasta artesanal con huevo, guanciale, pecorino romano y pimienta negra.", "price": "14,90€", "category": "Pasta", "isPopular": true },
+  { "name": "Pappardelle al Ragu", "description": "Pasta ancha con ragu de ternera y cerdo cocinado 6 horas.", "price": "15,90€", "category": "Pasta", "isPopular": true },
+  { "name": "Pizza Margherita", "description": "Base de tomate San Marzano, mozzarella fior di latte y albahaca fresca.", "price": "12,50€", "category": "Pizzas", "isPopular": true },
+  { "name": "Pizza Quattro Formaggi", "description": "Mozzarella, gorgonzola, parmesano y fontina sobre base blanca.", "price": "14,90€", "category": "Pizzas", "isPopular": false },
+  { "name": "Risotto ai Funghi", "description": "Arroz arborio con setas porcini, parmesano y trufa negra.", "price": "16,50€", "category": "Arroces", "isPopular": false },
+  { "name": "Ossobuco alla Milanese", "description": "Jarrete de ternera estofado con verduras, vino blanco y gremolata.", "price": "22,90€", "category": "Carnes", "isPopular": false },
+  { "name": "Tiramisu Casero", "description": "Bizcochos savoiardi, mascarpone, cafe espresso y cacao en polvo.", "price": "6,90€", "category": "Postres", "isPopular": true },
+  { "name": "Panna Cotta", "description": "Crema italiana con coulis de frutos rojos frescos.", "price": "5,90€", "category": "Postres", "isPopular": false }
+]
